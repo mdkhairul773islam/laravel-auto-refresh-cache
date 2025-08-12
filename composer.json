@@ -1,0 +1,22 @@
+{
+    "name": "khairul/laravel-auto-refresh-cache",
+    "description": "Laravel package for automatic model cache refresh on save/delete.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khairul\\AutoRefreshCache\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Khairul\\AutoRefreshCache\\AutoRefreshCacheServiceProvider"
+            ]
+        }
+    }
+}
