@@ -5,7 +5,17 @@ This package provides an easy way to auto-refresh cache for Laravel models on sa
 ## Installation
 
 ```bash
-composer require khairul/laravel-auto-refresh-cache
+composer require khairul/laravel-auto-refresh-cache:dev-main
+```
+
+Open config/app.php and add the following line to the providers array:
+
+```bash
+'providers' => [
+    // Other service providers...
+
+    Khairul\AutoRefreshCache\AutoRefreshCacheServiceProvider::class,
+],
 ```
 
 ## Publish Config
