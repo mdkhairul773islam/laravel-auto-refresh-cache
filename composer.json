@@ -1,6 +1,6 @@
 {
     "name": "khairul/laravel-auto-refresh-cache",
-    "description": "Laravel package for automatic model cache refresh on save/delete.",
+    "description": "Automatically refresh Laravel cache on model save or delete events.",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -12,11 +12,6 @@
         "php": ">=8.0",
         "illuminate/support": "^9.0|^10.0|^11.0"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Khairul\\AutoRefreshCache\\AutoRefreshCacheServiceProvider"
-            ]
-        }
-    }
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
